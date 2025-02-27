@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    border: 1px solid grey;
+    padding: 10px;
+    max-width: 1000px;
+    width: 80%;
+    
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    background-color: beige;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url(kepek/header.webp);
+    font-size: 30px;
+    
+}
+nav{
+    
+    border: 1px solid wheat;
+}
+nav ul{
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    border: 1px solid gray;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+article img{
+    display: flex;
+    width: 800px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center;
+}
+article h2{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.Allergenek{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media only screen and (max-width: 800px) {
+    body {
+      width: 100%;
+    }
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Allergenek{
+        flex-direction: column;
+        justify-content: center;
+        
+    
+    }
+  }
